@@ -1,0 +1,45 @@
+{
+    "name":        "LeafletMoveRotate",
+    "version":     "0.0.1",
+    "description": "Leaflet Move&Rotate polygon plugin",
+    "main":        "Gruntfile.js",
+
+    "directories": {
+        "example": "examples"
+    },
+
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/ua9msn/LeafletMoveRotate.git"
+    },
+
+    "keywords":[
+        "Leaflet"
+    ],
+
+    "author": {
+        "name":"Serge Balykov"
+    },
+
+    "homepage" : "http://ua9msn.ru/LeafetMoveRotate",
+
+    "license": ["MIT"],
+
+    "bugs": {
+        "url": "https://github.com/ua9msn/LeafletMoveRotate/issues"
+    },
+
+    "devDependencies": {
+        "grunt-contrib-copy":   "latest",
+        "grunt-contrib-concat":   "~0.3.0",
+        "grunt-contrib-uglify":   "~0.2.0",
+        "grunt-contrib-jshint":   "~0.6.0",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-contrib-watch":    "~0.4.0",
+        "grunt":                  "~0.4.1"
+    }
+}
